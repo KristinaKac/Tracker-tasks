@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'Open Sans', sans-serif;
-    src: url('../fonts/OpenSans-Regular.ttf');
+    src: url(b8cc747a58ffa52b7ff9.ttf);
 }
 
 body {
@@ -64,3 +64,4 @@ h2 {
 .hidden {
     display: none;
 }
+
