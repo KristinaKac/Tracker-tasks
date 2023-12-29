@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(131, 131, 131), transparent 1px),
+        linear-gradient(90deg, rgb(131, 131, 131), transparent 1px);
+    background-size: 30px 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(87, 85, 85);
+}
+h2 {
+    margin: 15px auto;
+    font-weight: 400;
+}
+.container {
+    max-width: 1000px;
+    height: auto;
+}
+.task-list {
+    list-style-type: none;
+    font-size: 15px;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(136, 135, 135);
+    border-radius: 15px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+.input {
+    width: 350px;
+    padding: 10px;
+}
+.status {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+}
